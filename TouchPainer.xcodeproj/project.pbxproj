@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2163FBE61DF5B15C00C8FAF8 /* VerTex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163FBE51DF5B15C00C8FAF8 /* VerTex.m */; };
 		21C820951DF067D000C1936D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C820941DF067D000C1936D /* main.m */; };
 		21C820981DF067D000C1936D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C820971DF067D000C1936D /* AppDelegate.m */; };
 		21C8209B1DF067D000C1936D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C8209A1DF067D000C1936D /* ViewController.m */; };
 		21C8209E1DF067D000C1936D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C8209C1DF067D000C1936D /* Main.storyboard */; };
-		21C820A01DF067D000C1936D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21C8209F1DF067D000C1936D /* Assets.xcassets */; };
 		21C820A31DF067D000C1936D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21C820A11DF067D000C1936D /* LaunchScreen.storyboard */; };
 		21C820AE1DF067D100C1936D /* TouchPainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C820AD1DF067D100C1936D /* TouchPainerTests.m */; };
 		21C820B91DF067D100C1936D /* TouchPainerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C820B81DF067D100C1936D /* TouchPainerUITests.m */; };
+		21E097111DF19C93002B12C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21E097101DF19C93002B12C8 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2163FBE31DF5AAA400C8FAF8 /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
+		2163FBE41DF5B15C00C8FAF8 /* VerTex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerTex.h; sourceTree = "<group>"; };
+		2163FBE51DF5B15C00C8FAF8 /* VerTex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerTex.m; sourceTree = "<group>"; };
 		21C820901DF067D000C1936D /* TouchPainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C820941DF067D000C1936D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21C820961DF067D000C1936D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +46,6 @@
 		21C820991DF067D000C1936D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		21C8209A1DF067D000C1936D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		21C8209D1DF067D000C1936D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		21C8209F1DF067D000C1936D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21C820A21DF067D000C1936D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21C820A41DF067D000C1936D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21C820A91DF067D100C1936D /* TouchPainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,7 @@
 		21C820B41DF067D100C1936D /* TouchPainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21C820B81DF067D100C1936D /* TouchPainerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainerUITests.m; sourceTree = "<group>"; };
 		21C820BA1DF067D100C1936D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E097101DF19C93002B12C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2163FBDD1DF5A87F00C8FAF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2163FBE31DF5AAA400C8FAF8 /* Mark.h */,
+				2163FBE41DF5B15C00C8FAF8 /* VerTex.h */,
+				2163FBE51DF5B15C00C8FAF8 /* VerTex.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2163FBDE1DF5A88E00C8FAF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2163FBDF1DF5A89800C8FAF8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		21C820871DF067D000C1936D = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +129,16 @@
 		21C820921DF067D000C1936D /* TouchPainer */ = {
 			isa = PBXGroup;
 			children = (
+				2163FBDF1DF5A89800C8FAF8 /* Controller */,
+				2163FBDE1DF5A88E00C8FAF8 /* View */,
+				2163FBDD1DF5A87F00C8FAF8 /* Model */,
+				21E097131DF19DF2002B12C8 /* sections */,
+				21E097121DF19DA2002B12C8 /* Resource */,
 				21C820961DF067D000C1936D /* AppDelegate.h */,
 				21C820971DF067D000C1936D /* AppDelegate.m */,
 				21C820991DF067D000C1936D /* ViewController.h */,
 				21C8209A1DF067D000C1936D /* ViewController.m */,
 				21C8209C1DF067D000C1936D /* Main.storyboard */,
-				21C8209F1DF067D000C1936D /* Assets.xcassets */,
 				21C820A11DF067D000C1936D /* LaunchScreen.storyboard */,
 				21C820A41DF067D000C1936D /* Info.plist */,
 				21C820931DF067D000C1936D /* Supporting Files */,
@@ -138,6 +170,21 @@
 				21C820BA1DF067D100C1936D /* Info.plist */,
 			);
 			path = TouchPainerUITests;
+			sourceTree = "<group>";
+		};
+		21E097121DF19DA2002B12C8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21E097101DF19C93002B12C8 /* Assets.xcassets */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		21E097131DF19DF2002B12C8 /* sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C820A31DF067D000C1936D /* LaunchScreen.storyboard in Resources */,
-				21C820A01DF067D000C1936D /* Assets.xcassets in Resources */,
+				21E097111DF19C93002B12C8 /* Assets.xcassets in Resources */,
 				21C8209E1DF067D000C1936D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21C8209B1DF067D000C1936D /* ViewController.m in Sources */,
+				2163FBE61DF5B15C00C8FAF8 /* VerTex.m in Sources */,
 				21C820981DF067D000C1936D /* AppDelegate.m in Sources */,
 				21C820951DF067D000C1936D /* main.m in Sources */,
 			);
@@ -516,6 +564,7 @@
 				21C820BF1DF067D100C1936D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C820C01DF067D100C1936D /* Build configuration list for PBXNativeTarget "TouchPainerTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +573,7 @@
 				21C820C21DF067D100C1936D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21C820C31DF067D100C1936D /* Build configuration list for PBXNativeTarget "TouchPainerUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +582,7 @@
 				21C820C51DF067D100C1936D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
