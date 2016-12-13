@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol Mark <NSObject>
-@property (nonatomic, retain)   UIColor     *color;
+@property (nonatomic, copy)     UIColor     *color;
 @property (nonatomic, assign)   CGFloat     size;
 @property (nonatomic, assign)   CGPoint     location;
 @property (nonatomic, readonly) NSUInteger  count;

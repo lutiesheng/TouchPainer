@@ -9,8 +9,6 @@
 #import "VerTex.h"
 
 @implementation VerTex
-@synthesize location = location_;
-@dynamic color, size;
 
 - (id) initWithLocation:(CGPoint)location
 {
@@ -22,26 +20,6 @@
     return self;
 }
 
-//默认属性什么也不做
--(void) setColor:(UIColor *)color
-{
-    
-}
-
--(UIColor *) color
-{
-    return nil;
-}
-
--(void) setSize:(CGFloat)size
-{
-    
-}
-
--(CGFloat) size
-{
-    return 0.0f;
-}
 
 -(void) addMark:(id<Mark>)mark
 {
@@ -71,7 +49,7 @@
 #pragma mark NSCopying method
 -(id)copyWithZone:(NSZone *)zone
 {
-    VerTex *vertexCopy = [[[self class] allocWithZone:zone]initWithLocation:location_];
+    VerTex *vertexCopy = [[[self class] allocWithZone:zone]initWithLocation:_location];
     
     return vertexCopy;
 }
