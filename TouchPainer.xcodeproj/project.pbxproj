@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210607CD1E0AC7E800BDD2EA /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 210607CC1E0AC7E800BDD2EA /* Character.m */; };
+		210607D01E0AC99C00BDD2EA /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 210607CF1E0AC99C00BDD2EA /* CharacterBuilder.m */; };
+		210607D31E0ACCB200BDD2EA /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 210607D21E0ACCB200BDD2EA /* StandardCharacterBuilder.m */; };
+		210607D61E0ACE9E00BDD2EA /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 210607D51E0ACE9E00BDD2EA /* ChasingGame.m */; };
+		211147A91E019A6E0045C225 /* ClothCanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 211147A81E019A6E0045C225 /* ClothCanvasViewGenerator.m */; };
+		211147AC1E019B0D0045C225 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 211147AB1E019B0D0045C225 /* CanvasViewController.m */; };
 		212163241DF8509400EBBE6F /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 212163231DF8509400EBBE6F /* Stroke.m */; };
+		214B78561E082C6A00E8FCCF /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 214B78551E082C6A00E8FCCF /* BrandingFactory.m */; };
+		214B78591E082D9D00E8FCCF /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 214B78581E082D9D00E8FCCF /* AcmeBrandingFactory.m */; };
+		214B785C1E082EAA00E8FCCF /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 214B785B1E082EAA00E8FCCF /* SierraBrandingFactory.m */; };
 		2163FBE61DF5B15C00C8FAF8 /* VerTex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2163FBE51DF5B15C00C8FAF8 /* VerTex.m */; };
 		216F29071E004523003973C2 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 216F29061E004523003973C2 /* CanvasView.m */; };
 		216F290A1E00456A003973C2 /* PaperCanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 216F29091E00456A003973C2 /* PaperCanvasView.m */; };
@@ -43,8 +52,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210607CB1E0AC7E800BDD2EA /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		210607CC1E0AC7E800BDD2EA /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		210607CE1E0AC99C00BDD2EA /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		210607CF1E0AC99C00BDD2EA /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		210607D11E0ACCB200BDD2EA /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		210607D21E0ACCB200BDD2EA /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		210607D41E0ACE9E00BDD2EA /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		210607D51E0ACE9E00BDD2EA /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		211147A71E019A6E0045C225 /* ClothCanvasViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothCanvasViewGenerator.h; sourceTree = "<group>"; };
+		211147A81E019A6E0045C225 /* ClothCanvasViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothCanvasViewGenerator.m; sourceTree = "<group>"; };
+		211147AA1E019B0D0045C225 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		211147AB1E019B0D0045C225 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		212163221DF8509400EBBE6F /* Stroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stroke.h; sourceTree = "<group>"; };
 		212163231DF8509400EBBE6F /* Stroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stroke.m; sourceTree = "<group>"; };
+		214B78541E082C6A00E8FCCF /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		214B78551E082C6A00E8FCCF /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		214B78571E082D9D00E8FCCF /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		214B78581E082D9D00E8FCCF /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		214B785A1E082EAA00E8FCCF /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		214B785B1E082EAA00E8FCCF /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
 		2163FBE31DF5AAA400C8FAF8 /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
 		2163FBE41DF5B15C00C8FAF8 /* VerTex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerTex.h; sourceTree = "<group>"; };
 		2163FBE51DF5B15C00C8FAF8 /* VerTex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerTex.m; sourceTree = "<group>"; };
@@ -103,6 +130,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		210607CA1E0AC61200BDD2EA /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				210607CB1E0AC7E800BDD2EA /* Character.h */,
+				210607CC1E0AC7E800BDD2EA /* Character.m */,
+				210607CE1E0AC99C00BDD2EA /* CharacterBuilder.h */,
+				210607CF1E0AC99C00BDD2EA /* CharacterBuilder.m */,
+				210607D11E0ACCB200BDD2EA /* StandardCharacterBuilder.h */,
+				210607D21E0ACCB200BDD2EA /* StandardCharacterBuilder.m */,
+				210607D41E0ACE9E00BDD2EA /* ChasingGame.h */,
+				210607D51E0ACE9E00BDD2EA /* ChasingGame.m */,
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		214B78531E082C2F00E8FCCF /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				214B78541E082C6A00E8FCCF /* BrandingFactory.h */,
+				214B78551E082C6A00E8FCCF /* BrandingFactory.m */,
+				214B78571E082D9D00E8FCCF /* AcmeBrandingFactory.h */,
+				214B78581E082D9D00E8FCCF /* AcmeBrandingFactory.m */,
+				214B785A1E082EAA00E8FCCF /* SierraBrandingFactory.h */,
+				214B785B1E082EAA00E8FCCF /* SierraBrandingFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 		2163FBDD1DF5A87F00C8FAF8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +188,8 @@
 		2163FBDF1DF5A89800C8FAF8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				211147AA1E019B0D0045C225 /* CanvasViewController.h */,
+				211147AB1E019B0D0045C225 /* CanvasViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -160,6 +217,8 @@
 		21C820921DF067D000C1936D /* TouchPainer */ = {
 			isa = PBXGroup;
 			children = (
+				210607CA1E0AC61200BDD2EA /* Builder */,
+				214B78531E082C2F00E8FCCF /* Factory */,
 				2163FBDF1DF5A89800C8FAF8 /* Controller */,
 				2163FBDE1DF5A88E00C8FAF8 /* View */,
 				2163FBDD1DF5A87F00C8FAF8 /* Model */,
@@ -218,6 +277,8 @@
 				216F290F1E004A70003973C2 /* CanvasViewGenerator.m */,
 				216F29111E004EC4003973C2 /* PaperCanvasViewGenerator.h */,
 				216F29121E004EC4003973C2 /* PaperCanvasViewGenerator.m */,
+				211147A71E019A6E0045C225 /* ClothCanvasViewGenerator.h */,
+				211147A81E019A6E0045C225 /* ClothCanvasViewGenerator.m */,
 			);
 			name = sections;
 			sourceTree = "<group>";
@@ -359,13 +420,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				216F29101E004A70003973C2 /* CanvasViewGenerator.m in Sources */,
+				214B78561E082C6A00E8FCCF /* BrandingFactory.m in Sources */,
+				211147A91E019A6E0045C225 /* ClothCanvasViewGenerator.m in Sources */,
+				210607CD1E0AC7E800BDD2EA /* Character.m in Sources */,
 				21C8209B1DF067D000C1936D /* ViewController.m in Sources */,
+				211147AC1E019B0D0045C225 /* CanvasViewController.m in Sources */,
+				214B785C1E082EAA00E8FCCF /* SierraBrandingFactory.m in Sources */,
+				210607D01E0AC99C00BDD2EA /* CharacterBuilder.m in Sources */,
 				2163FBE61DF5B15C00C8FAF8 /* VerTex.m in Sources */,
 				216F29131E004EC4003973C2 /* PaperCanvasViewGenerator.m in Sources */,
+				210607D31E0ACCB200BDD2EA /* StandardCharacterBuilder.m in Sources */,
+				210607D61E0ACE9E00BDD2EA /* ChasingGame.m in Sources */,
 				216F290D1E004709003973C2 /* ClothCanvasView.m in Sources */,
 				21C820981DF067D000C1936D /* AppDelegate.m in Sources */,
 				216F290A1E00456A003973C2 /* PaperCanvasView.m in Sources */,
 				21E067621DF62E9A00758A4D /* Dot.m in Sources */,
+				214B78591E082D9D00E8FCCF /* AcmeBrandingFactory.m in Sources */,
 				216F29071E004523003973C2 /* CanvasView.m in Sources */,
 				21C820951DF067D000C1936D /* main.m in Sources */,
 				212163241DF8509400EBBE6F /* Stroke.m in Sources */,
